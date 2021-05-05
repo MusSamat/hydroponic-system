@@ -1,0 +1,45 @@
+.feature_main{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    gap: 100px;
+}
+
+.feature_main .feature_desc {
+    display: flex;
+    flex-direction: column;
+}
+.feature_main .feature_desc .feature_title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.feature_main .feature_desc .feature_title span{
+    margin-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 10px !important;
+    color: #4F5665;
+}
+
+
+.voice_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.voice {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+}
+

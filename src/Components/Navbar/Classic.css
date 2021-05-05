@@ -1,7 +1,7 @@
 header{
     padding-top: 50px;
     padding-bottom: 20px;
-    position: sticky;
+    position: static;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -12,6 +12,7 @@ header .logo {
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
+    cursor: pointer;
 }
 header .logo_title{
     color: #0B132A;
@@ -26,7 +27,7 @@ header .logo_title span{
     font-weight: bold;
 }
 
-header ul {
+header ul  {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -40,12 +41,23 @@ header ul {
     color: #4F5665;
 }
 
+header ul li {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header ul li:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
 header .header_btns{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 36px;
+
 }
 
 header .header_btns .login{
@@ -53,6 +65,14 @@ header .header_btns .login{
     font-weight: 500;
     font-size: 24px;
     color: #0B132A;
+    cursor: pointer;
+}
+
+header .header_btns .login:hover{
+    border-top: 1px solid #0B132A;
+    border-bottom: 1px solid #0B132A;
+    padding: 8px 0;
+    border-radius: 2%;
 }
 
 header .header_btns .signUp{
@@ -64,6 +84,13 @@ header .header_btns .signUp{
     font-size: 20px;
     color: #0F980C;
     font-weight: 500;
+    cursor: pointer;
+}
+
+header .header_btns .signUp:hover{
+    border: 1px solid black;
+    color: #fff;
+    background-color: #0F980C;
 }
 
 header .titles {

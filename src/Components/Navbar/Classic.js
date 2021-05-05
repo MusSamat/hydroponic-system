@@ -39,28 +39,28 @@ class Classic extends Component {
                     <div className='titles' id='titles'>
                         <ul>
                             <li>
-                                About
+                                Биз тууралуу
                             </li>
                             <li>
-                                Features
+                                Келечек пландар
                             </li>
                             <li>
-                                Pricing
+                                Комментарийлер
                             </li>
                             <li>
-                                Testimonials
+                                Жардам
                             </li>
                             <li>
-                                Help
+                                Контакт
                             </li>
                         </ul>
                     </div>
                     <div className='header_btns'>
                         <div className='login'>
-                            Log in
+                            Кирүү
                         </div>
                         <button className='signUp'>
-                            Sign Up
+                            Катталуу
                         </button>
                     </div>
                     <div className='hamburger' id="hamburger">
